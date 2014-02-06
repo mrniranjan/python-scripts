@@ -7,3 +7,17 @@
 SyntaxError: invalid syntax
 
 Answer: print "Is it less or equal?", 5 <= -2
+
+
+2. Cannot have strings with multiple lines
+
+ [ashok@mydevel python-scripts]$ python myex1.py 
+  File "myex1.py", line 1
+    print "Of the Numbers below which is greater 
+                                                ^
+SyntaxError: EOL while scanning string literal
+
+Code:
+
+print "Of the Numbers below which is greater
+        382, 4972, 18, 59585, 750 "
