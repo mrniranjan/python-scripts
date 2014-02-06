@@ -1,0 +1,9 @@
+1. Failed to add comma "," after the string is closed by double quotes
+
+[ashok@mydevel python-scripts]$ python ex3.py 
+  File "ex3.py", line 24
+    print "Is it less or equal?" 5 <= -2
+                                 ^
+SyntaxError: invalid syntax
+
+Answer: print "Is it less or equal?", 5 <= -2
