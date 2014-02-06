@@ -35,3 +35,8 @@ print "Is it greater?", 5 > -2
 print "Is it greater or equal?", 5 >= -2 
 # Prints "Is it less or equal?" and then prints true if 5 <= -2 else prints false
 print "Is it less or equal?", 5 <= -2
+
+print "Now using floating point numbers:" 
+print "Result of 20.8313 + 341.323432 is: ", 20.8313 + 341.323432
+
+print "Result of expression 1.0 + 2.544323242: ", 1.0 + 2.544323242
