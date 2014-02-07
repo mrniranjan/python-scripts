@@ -21,3 +21,12 @@ Code:
 
 print "Of the Numbers below which is greater
         382, 4972, 18, 59585, 750 "
+
+
+3.  Using undefined variables
+
+Traceback (most recent call last):
+  File "ex4.py", line 14, in <module>
+    print "There will be", car_not_driven, "empty cars today"
+NameError: name 'car_not_driven' is not defined
+
