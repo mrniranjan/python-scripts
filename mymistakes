@@ -41,3 +41,81 @@ In the above program Ramesh variable is not defined, and if have to use string w
 
 print "%s has borrowed %d amount from the bank", % ('Ramesh', 4000)
 
+5. Did not end the string with doublequotes
+
+[ashok@mydevel python-scripts]$ python myex4.py
+  File "myex4.py", line 11
+    print "Simple interest is calculated using formula:,
+                                                       ^
+SyntaxError: EOL while scanning string literal
+
+Syntax should be:
+
+print "Simple interest is calculated using formula:",
+print "Simple Interest = Princial (%d) * Number of years (%0.1f) * Rate of interest (%d)" % (principal, no_of_years, rate_of_interest)
+
+
+6.  I declared a variable containing a string with 2 single quotes
+
+cm = ''Centimeters''
+
+  File "myex6.py", line 3
+    cm = ''Centimeters''
+                     ^
+SyntaxError: invalid syntax
+
+Which  is wrong 
+
+7. When printing a * 45 times, i did not use Multiplier operator and instead used period "." 
+[ashok@mydevel python-scripts]$ python myex6.py
+  File "myex6.py", line 6
+    print "*".45
+               ^
+SyntaxError: invalid syntax
+
+Answer, it should print "*"*45
+
+8. When using comma "," to print multiple statements in single line, i can't use format identiers in the last print statement:
+
+ First How many '%s' is equal to '%s' ? 
+Traceback (most recent call last):
+  File "myex6.py", line 10, in <module>
+    print " It's %d '%s' is equal %0.2f '%s'" % (cm,me,1,cm,0.01,me)
+TypeError: %d format: a number is required, not str
+
+Example: 
+
+print " First How many '%s' is equal to '%s' ? ",
+print " It's %d '%s' is equal %0.2f '%s'" % (cm,me,1,cm,0.01,me)
+
+
+The above is wrong :
+
+Correct:
+
+print " First How many '%s' is equal to '%s' ? " % (cm, me), 
+print " It's %d '%s' is equal %0.2f '%s'" % (1,cm,0.01,me)  
+ 
+
+We have to use format identifiers in the same print statement line eventhough we are using multiple statements.
+
+9. We can't use , (comma) when using format identifiers,
+
+[ashok@mydevel python-scripts]$ python myex6.py
+  File "myex6.py", line 9
+    print " First How many '%s' is equal to '%s' ? ", % (cm,me)
+                                                      ^
+SyntaxError: invalid syntax
+
+
+Correct syntax : 
+
+print " First How many '%s' is equal to '%s' ? " % (cm,me),
+
+10.  Again did mistake of using undefined variable
+
+Traceback (most recent call last):
+  File "myex6.py", line 21, in <module>
+    print " So is %0.2f %s greater than %d %s " % (val_me_conv, me, val_me, me), val_conv_cm > val_me 
+NameError: name 'val_conv_cm' is not defined
+
