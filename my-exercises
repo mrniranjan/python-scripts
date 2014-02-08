@@ -1,0 +1,79 @@
+1. calculate simple interest: where principal  is 4000, rate of interes is 5%, number of years is 8.5
+formula: si=p*n*r/100;
+
+2. calculate cm's to Inches
+
+3. calculate cm's to Meters
+
+4. calculate Meters to km
+
+5. Calculate Meters from KM
+
+6. Calculate cms from km
+
+7. calcuate pounds from kgs
+
+8. calcuate kgs from pounds
+
+9. volume of a cylinder:  3.14 * r * h 
+
+10. area = 3.14 * r ** 2
+
+11. Evaluate expression: a=7/22*(3.14 + 2) * 3/5
+
+12. Basic salary=1000
+Dearness allowance=40% of bs
+hra = 20% of bs
+Calculate gross salary
+
+
+13. distance between 2 cities A and B is 10, write a program to convert the 
+distance to meters, feet, inches
+
+14. get the marks obtained by 5 different subjects and find the agregate marks
+
+15. length and bredth of rectangle is 5 and 10, find the area  of rectangle
+
+16. length of square is 5 cms, Find the area of square
+
+17. 2 numbers are entered , write a program to calculate the sum of digits (use %)
+
+18.  write a program to reverse the number
+
+19. in town %of men is 52, total literacy is 48% (including men and women), 
+if literate men is 35 %  of total population, find total number of illeterate men and women
+in population of 80,000
+
+20. total selling price of 15 items = 150 rs, total profit earned is 25 Rs, find the cost price
+
+21. Whos is tallest Ramhari=160cm, Dolly=150cm, Mohan=158 shashi=159cm
+
+22. Accept a 2 digit number from user and check if it's greatest 2 digit number
+
+23. Take 5 digit number and display as below:
+	example: 12345
+	1*10000 + 2*1000 + 3*100 + 4*10 + 5*1
+24. Accept a number from user and display this:
+
+	example: if user inputs 1500
+	it should display 1 Thousand five hundred rupees only
+
+	exampe: 40350894
+
+25. 1 Meter = 1000 mm 
+    1 gram = 1000 milligrams
+    1000 grams = 1kg 
+    Accept users weigth in kgs, convert it to grams, milligrams
+
+26. A bus started it's journey and reached different places with a speed of 60km/hour. journey is shown as below:
+	find the total distance covered from A to D
+	find the total distance covered by bus from D to G
+	find the total distance covered by bus if it starts from A and returns to A 
+	What is the distances from C to D and D to E 
+	
+	find out the time taken by bus to reach A to B, C to D, E - G  and total journey
+	
+	 4170	3410	2160	8140		4830	 2550		1290
+	A---->B---->C------>D-------------->E--------->F----------->G-----------A
+
+25. 
