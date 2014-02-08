@@ -30,3 +30,14 @@ Traceback (most recent call last):
     print "There will be", car_not_driven, "empty cars today"
 NameError: name 'car_not_driven' is not defined
 
+4. String when not used with single quotes or double quotes causes the string to be used as variable . 
+
+Traceback (most recent call last):
+  File "myex3.py", line 7, in <module>
+    print "%s has borrowed %d amount from the bank" % (Ramesh, 4000)
+NameError: name 'Ramesh' is not defined
+
+In the above program Ramesh variable is not defined, and if have to use string we should be using like below:
+
+print "%s has borrowed %d amount from the bank", % ('Ramesh', 4000)
+
