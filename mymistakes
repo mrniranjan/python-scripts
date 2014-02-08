@@ -119,3 +119,31 @@ Traceback (most recent call last):
     print " So is %0.2f %s greater than %d %s " % (val_me_conv, me, val_me, me), val_conv_cm > val_me 
 NameError: name 'val_conv_cm' is not defined
 
+11.  When using single quotes instead of double quotes, make sure there is no other single quotes in the string 
+
+[ashok@mydevel python-scripts]$ python myex7.py
+  File "myex7.py", line 12
+    print ' It's 1 %s is %d %s ' % (km,conv,me)
+               ^
+SyntaxError: invalid syntax
+
+
+Example: print ' It's 1 %s is %d %s ' % (km,conv,me)
+
+Correct: print " It's 1 %s is %d %s " % (km,conv,me)
+
+
+12. In correct syntax in  the format identifier
+
+ we will convert 1784 Meters to KiloMeters
+Traceback (most recent call last):
+  File "myex7.py", line 20, in <module>
+    print ' %d %s is 0.2f %s ' % (to_be_conv,me,in_km,km)
+TypeError: not all arguments converted during string formatting
+
+
+print ' %d %s is 0.2f %s ' % (to_be_conv,me,in_km,km)
+
+Mistake is in 0.2f, it should actually be %0.2f
+
+
