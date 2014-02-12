@@ -146,4 +146,36 @@ print ' %d %s is 0.2f %s ' % (to_be_conv,me,in_km,km)
 
 Mistake is in 0.2f, it should actually be %0.2f
 
+13, Not enough arguments for format string
+
+1 2 3 4
+'One' 'Two' 'Three' 'Four'
+True False False True
+'%r %r %r %r' '%r %r %r %r' '%r %r %r %r' '%r %r %r %r'
+Traceback (most recent call last):
+  File "ex8.py", line 9, in <module>
+    "I had this thing"
+TypeError: not enough arguments for format string
+
+Actual code:
+
+print formatter % (
+        "I had this thing"
+        "That you could type up right"
+        "But it didn't sing" 
+        "So i said goodnight"
+) 
+
+
+The error is that i did not add , (comma) after each string 
+
+
+Correct;
+
+print formatter % (
+        "I had this thing", 
+        "That you could type up right", 
+        "But it didn't sing", 
+        "So i said goodnight", 
+) 
 
