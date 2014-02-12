@@ -179,3 +179,32 @@ print formatter % (
         "So i said goodnight", 
 ) 
 
+14. 
+
+Traceback (most recent call last):
+  File "myex9.py", line 14, in <module>
+    si_amt = p_amount * no_years * int_rate/100
+TypeError: can't multiply sequence by non-int of type 'str'
+
+15.
+
+Traceback (most recent call last):
+  File "myex9.py", line 14, in <module>
+    si_amt = int(p_amount) * int(no_years) * int(int_rate) / 100
+ValueError: invalid literal for int() with base 10: '8.5'
+
+16.
+
+Traceback (most recent call last):
+  File "myex9.py", line 14, in <module>
+    si_amt = int(p_amount) * int(no_years) * int(int_rate) / 100
+ValueError: invalid literal for int() with base 10: '8.5'
+
+
+17.
+hok@mydevel python-scripts]$ python myex10.py one two
+  File "myex10.py", line 4
+    program one two three four = argv
+              ^
+SyntaxError: invalid syntax
+
