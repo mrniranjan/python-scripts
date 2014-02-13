@@ -7,5 +7,5 @@ y = "28292 - 21946"
 Wow = True
 sad = False
 
-print "is\t" +  x + "\t>\t" + y, 730 + 998 > 28292 - 21946
+print "is\t" +  x + "\t > \t" + y, 730 + 998 > 28292 - 21946
 

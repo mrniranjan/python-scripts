@@ -208,3 +208,16 @@ hok@mydevel python-scripts]$ python myex10.py one two
               ^
 SyntaxError: invalid syntax
 
+18. 
+
+hok@mydevel python-scripts]$ python myex22.py
+  File "myex22.py", line 6
+    print "Apples" + \t + "Rs %d per kg" % (apples)
+                                                  ^
+
+hok@mydevel python-scripts]$ python myex22.py
+  File "myex22.py", line 55
+    print "Total Money gained by Raman by selling,
+                                                 ^
+SyntaxError: EOL while scanning string literal
+
