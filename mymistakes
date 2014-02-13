@@ -221,3 +221,18 @@ hok@mydevel python-scripts]$ python myex22.py
                                                  ^
 SyntaxError: EOL while scanning string literal
 
+
+19. 
+
+
+  File "myex25.py", line 1  
+int(basic_salary) = raw_input("Basic Salary: ")
+SyntaxError: can't assign to function call
+
+11.
+
+Traceback (most recent call last):
+  File "myex25.py", line 26, in <module>
+    target.write = (x)
+AttributeError: 'file' object attribute 'write' is read-only
+[
