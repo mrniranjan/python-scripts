@@ -1,0 +1,9 @@
+
+	Report Card for ('test',)
+	Mathematics: 12
+	Science    : 24
+	English    : 12
+	Social     : 434
+	Hindi      : 53
+	Total	   : 535
+	
