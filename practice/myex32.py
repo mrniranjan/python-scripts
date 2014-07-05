@@ -5,6 +5,8 @@
 def report():
 	current_file=open("expenditure.txt", 'r')
 	print current_file.read()
+	current_file.close()
+	
 	
 
 def getexp():
@@ -17,6 +19,7 @@ def getexp():
 	item3 = str(raw_input("Item 3:"))
 	item3price = float(raw_input("Enter price for item3:")) 
 	file = open("expenditure.txt", 'w')
+	totalprice = item1price + item2price + item3price
 	file.write(x)
 	file.write("\n")
 	file.write(y)
@@ -32,6 +35,9 @@ def getexp():
 	file.write(item3)
 	file.write(":")
 	file.write(str(item3price))
+	file.write("\n")
+	file.write("Total:")
+	file.write(str(totalprice))
 	file.write("\n")
 	file.close()
 
