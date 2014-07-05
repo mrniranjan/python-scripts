@@ -1,5 +1,6 @@
 Expenditure Sheet
 ********************
-ade:323.0
-def:1234.0
-dfe:132.0
+abv:1313.0
+adf:13435.0
+fad:12.0
+Total:14760.0
