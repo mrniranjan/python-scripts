@@ -1,0 +1,4 @@
+Question						Answer		 Points Earned
+--------------------------------------------------------------------------------
+Niranjan273 is a Even or Odd Number(Type 'even'|'odd'): 	odd		1
+NiranjanIs 3 a Prime Number(yes/no): 			no		0

@@ -1,0 +1,10 @@
+Report card of test1
+....................
+English: '65'
+Science: '75'
+Mathematics: '75'
+Hindi: '23'
+....................
+Total: 238
+....................
+Average: 59

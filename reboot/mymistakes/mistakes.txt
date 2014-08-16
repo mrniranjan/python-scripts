@@ -1,0 +1,126 @@
+1.
+
+----------------------------
+  File "math2.py", line 1
+    print "Let's do some floating point numbers: 20.324 + 5.5343 : "  20.324 + 5.5343
+SyntaxError: invalid syntax
+---------------------------
+
+Mistake did not put , after the closing double quotes
+
+< print "Let's do some floating point numbers: 20.324 + 5.5343 : "  20.324 + 5.5343
+> print "Let's do some floating point numbers: 20.324 + 5.5343 : ",  20.324 + 5.5343
+
+2. 
+------------------------
+  File "math5.py", line 4
+    print "For rectangle having width 5cm" , height 10cm"
+                                                     ^
+SyntaxError: invalid syntax
+------------------------
+
+had put 2 times closing quotes, instead of 1 
+<print "For rectangle having width 5cm" , height 10cm"
+>print "For rectangle having width 5cm , height 10cm"
+
+3.
+--------------------------
+  File "math6.py", line 7
+    print "area = 1/2(5+10) * 15: " 1/2(5 + 10) * 15
+                                    ^
+SyntaxError: invalid syntax
+--------------------------
+
+There was no , (comma) after the closing double quotes
+< print "area = 1/2(5+10) * 15: " 1/2(5 + 10) * 15
+> print "area = 1/2(5+10) * 15: ", 1/2(5 + 10) * 15
+
+4. 
+--------------------------------
+Traceback (most recent call last):
+  File "math6.py", line 7, in <module>
+    print "area = 1/2(5+10) * 15: ", 1/2(5 + 10) * 15
+TypeError: 'int' object is not callable
+-----------------------------------
+
+< 1/2(5 + 10) * 15
+> 1/2 * (5 + 10) * 15
+
+5. 
+-------------------------
+  File "math9.py", line 2
+    print "3x2 + 2x + 5
+                      ^
+SyntaxError: EOL while scanning string literal
+-------------------------
+
+mistake did not put closing brackets
+
+< print "3x2 + 2x + 5
+> print "3x2 + 2x + 5"
+
+6.
+---------------------------
+Traceback (most recent call last):
+  File "ex4.py", line 8, in <module>
+    average_passengers_per_car = passengers / cars_driven
+NameError: name 'passengers' is not defined
+--------------------------
+
+
+7.
+--------------------------------------
+[ashok@mydevel reboot]$ python ex5.py
+  File "ex5.py", line 17
+    print "if i add %d %d , and I get %d." %
+                                           ^
+SyntaxError: invalid syntax
+----------------------------------------
+print "if i add %d %d , and I get %d." %
+      ( my_age, my_height, my_weight, my_age + my_height + my_weight)
+
+In the above line the opening bracket should be starting after % sign
+
+like this:
+
+print "if i add %d %d , and I get %d." % (
+       my_age, my_height, my_weight, my_age + my_height + my_weight)	
+
+
+8. 
+----------------------------------------
+hok@mydevel reboot]$ python ex5.py
+Let's talk about Zed A. Shaw.
+He's 74 inches tall.
+He's 180 pounds heavy.
+Actually that's not too heavy.
+He's got Blue eyes and Brown hair.
+His teeth are usually White depdending on the coffee.
+Traceback (most recent call last):
+  File "ex5.py", line 18, in <module>
+    my_age, my_height, my_weight, my_age + my_height + my_weight)
+TypeError: not all arguments converted during string formatting
+-----------------------------------------
+
+In the above line i did not match my variables to format strings
+
+
+print "if i add %d %d , and I get %d." % (
+       my_age, my_height, my_weight, my_age + my_height + my_weight)	
+
+
+In the above line i have 3 format strings , but the variables are my_age,
+my_height, my_weight, and my_age + my_height + my_weight, which makes total
+variable as 4 
+
+Below is the correct syntax
+
+print "if i add %d %d , and %d I get %d." % (
+       my_age, my_height, my_weight, my_age + my_height + my_weight)	
+
+
+9:. 
+[ashok@mydevel reboot]$ python math12.py 
+  File "math12.py", line 13
+    s2 = "Is %s taller than %s" % (student1, student2) s1cm > s2cm
+                                   

@@ -1,0 +1,13 @@
+
+		Report card of ramu
+		English: 89
+		Scinece: 87
+		Maths: 67
+		Hindi: 56
+		...............
+		Total: 299
+		
+
+		Average: 74
+		...............
+	
