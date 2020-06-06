@@ -1,13 +1,12 @@
-MAX=20
+MAX=10
 a = list(range(1, MAX))
 print(a)
-# print(a[1:3])
-# l = len(a)
-# p = ((l / 2) - 2)
-# q = ((l / 2) + 2)
-# # print(a[p:q])
-# print(a[int(p):int(q)])
-# print(a[-4:])
+print(a[1:3])
+l = len(a)
+p = ((l / 2) - 2)
+q = ((l / 2) + 2)
+print(a[int(p):int(q)])
+print(a[-4:])
 i = 0
 j = 0
 for i in range(1, MAX):
